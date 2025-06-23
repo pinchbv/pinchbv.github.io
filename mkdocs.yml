@@ -1,7 +1,16 @@
-site_name: PINCH - Public Documentation 
+site_name: Documentation 
 site_url: https://pinchbv.github.io
 theme:
   name: material
+  logo: assets/logo.png
+  favicon: assets/favicon.png
+  features:
+    - navigation.tabs
+    - navigation.expand
+    - navigation.top
+    - search
+    - search.suggest
+    - social
   palette: 
     # Palette toggle for light mode
     - media: "(prefers-color-scheme: light)"
@@ -18,3 +27,20 @@ theme:
       toggle:
         icon: material/brightness-4
         name: Switch to light mode
+extra_css:
+  - stylesheets/extra.css
+extra:
+  social:
+    - icon: fontawesome/brands/github 
+      link: https://github.com/pinchbv
+    - icon: fontawesome/brands/instagram 
+      link: https://www.instagram.com/pinch.nl
+    - icon: fontawesome/brands/linkedin 
+      link: https://www.linkedin.com/company/pinch-bv/
+    - icon: fontawesome/brands/x-twitter
+      link: https://x.com/pinch_nl
+    - icon: fontawesome/solid/paper-plane
+      link: mailto:info@pinch.nl
+  generator: false
+copyright: Copyright &copy; Pinch 2025
+
