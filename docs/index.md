@@ -1,17 +1,15 @@
-# Welcome to MkDocs
+---
+title: Introduction
+---
 
-For full documentation visit [mkdocs.org](https://www.mkdocs.org).
+# Welcome to Pinch B.V. Documentation
 
-## Commands
+Hello and welcome! This is the central place for all public documentation related to the products and services offered by Pinch B.V. 
+We are a firm of mobile app developers, designers, and strategists for the development of high-quality apps with impact.
 
-* `mkdocs new [dir-name]` - Create a new project.
-* `mkdocs serve` - Start the live-reloading docs server.
-* `mkdocs build` - Build the documentation site.
-* `mkdocs -h` - Print help message and exit.
+Here, you will find a collection of guides, tutorials, and resources designed to help you understand and make the most of what we do.
 
-## Project layout
+Our goal is to make our documentation accessible and easy to understand for everyone, regardless of technical expertise. 
+We are constantly working to improve and expand the resources available here.
 
-    mkdocs.yml    # The configuration file.
-    docs/
-        index.md  # The documentation homepage.
-        ...       # Other markdown pages, images and other files.
+\- Pinch B.V.
