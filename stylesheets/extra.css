@@ -1,0 +1,23 @@
+/* Styles for the slate (dark) color scheme */
+[data-md-color-scheme="slate"] {
+  /* Set the primary background color for the slate scheme */
+  --md-primary-fg-color: #44ca86;
+  /* Set the accent color for interactive elements */
+  --md-accent-fg-color: #44ca86;
+}
+
+/* Ensure text on header and navigation is white for the slate scheme */
+[data-md-color-scheme="slate"] .md-header,
+[data-md-color-scheme="slate"] .md-nav {
+  color: #ffffff;
+}
+
+/* ------------------------------------------------------------------ */
+
+/* Styles for the default (light) color scheme */
+[data-md-color-scheme="default"] {
+  /* Set the primary background color for the default scheme */
+  --md-primary-fg-color: #44ca86;
+  /* Set the accent color for interactive elements */
+  --md-accent-fg-color: #44ca86;
+}
