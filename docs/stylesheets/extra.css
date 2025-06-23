@@ -1,7 +1,23 @@
-:root  > * {
-  --md-primary-fg-color:        #44ca86;
-  --md-primary-fg-color--light: #44ca86;
-  --md-primary-fg-color--dark:  #44ca86;
-  /* --md-default-bg-color:        #e7e8eb;   */
-  /* --md-primary-bg-color--light: #131433; */
+/* Styles for the slate (dark) color scheme */
+[data-md-color-scheme="slate"] {
+  /* Set the primary background color for the slate scheme */
+  --md-primary-fg-color: #44ca86;
+  /* Set the accent color for interactive elements */
+  --md-accent-fg-color: #44ca86;
+}
+
+/* Ensure text on header and navigation is white for the slate scheme */
+[data-md-color-scheme="slate"] .md-header,
+[data-md-color-scheme="slate"] .md-nav {
+  color: #ffffff;
+}
+
+/* ------------------------------------------------------------------ */
+
+/* Styles for the default (light) color scheme */
+[data-md-color-scheme="default"] {
+  /* Set the primary background color for the default scheme */
+  --md-primary-fg-color: #44ca86;
+  /* Set the accent color for interactive elements */
+  --md-accent-fg-color: #44ca86;
 }
